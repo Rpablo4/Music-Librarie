@@ -4,6 +4,12 @@ body{
 h1, h2, h3, p, a{
     color: #e5e5e5e7;
 }
-menuLateral{
+nav{
     background-color: #040517;
+}
+body{
+    /*Grid não testado*/
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: 1fr 50px;
 }
