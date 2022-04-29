@@ -1,15 +1,20 @@
-body{
-    background-color: rgb(32, 15, 86);
-}
 h1, h2, h3, p, a{
     color: #e5e5e5e7;
 }
-nav{
-    background-color: #040517;
-}
+
 body{
-    /*Grid não testado*/
     display: grid;
-    grid-template-columns: 120px 1fr;
-    grid-template-rows: 1fr 50px;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "asid main";
+}
+aside{
+    background-color: #040517;
+    grid-area: asid;
+    height: 100vh;
+}
+main{
+    height: 100vh;
+    grid-area: main;
+    background-color: rgb(32, 15, 86);
 }
