@@ -7,6 +7,8 @@ body{
     grid-template-columns: 150px 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "asid main";
+    font-family: 'Montserrat';
+    font-size: 10px;
 }
 aside{
     background-color: #040517;
@@ -18,3 +20,19 @@ main{
     grid-area: main;
     background-color: rgb(32, 15, 86);
 }
+.navMenu a{
+    display: grid;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    color: #C0C0C0;
+    font-family: "Montserrat";
+    font-size: 11px;
+    font-weight:100;
+    margin-bottom: 5px;
+}
+.navMenu{
+    margin-bottom: 35px;
+}
+
