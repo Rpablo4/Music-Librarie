@@ -35,4 +35,25 @@ main{
 .navMenu{
     margin-bottom: 35px;
 }
+main{
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1.5fr 1fr;
+    grid-template-areas: "Search Search"
+                        "featPlay featPlay" 
+                        "profileViews tracks";
+}
+.featuredPlaylists{
+grid-area: featPlay ;
 
+}
+.profileViews{
+    grid-area: profileViews;
+}
+.tracks{
+    grid-area: tracks;
+}
+.header{
+    grid-area: search;
+}
