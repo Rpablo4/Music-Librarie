@@ -14,7 +14,7 @@ function constroiTabela(array) {
                 </div>
               <div>
                 <h3>${user.title}</h3>
-                <p>${user.tracks}</p>
+                <p class="playlistTracks" >${user.tracks}</p>
               </div>
             </div>
         `;
