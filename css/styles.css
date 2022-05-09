@@ -43,10 +43,15 @@ main{
     grid-template-areas: "Search Search"
                         "featPlay featPlay" 
                         "profileViews tracks";
+    max-height: 100vw;
 }
 .featuredPlaylists{
 grid-area: featPlay ;
+display: block;
+}
 
+body main div h2{
+    font-weight: 800;
 }
 .profileViews{
     grid-area: profileViews;

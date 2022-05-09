@@ -1,0 +1,15 @@
+#coverPlaylists{
+    height:8rem;
+    width: 14rem;
+    border-radius: 0.7rem;
+}
+
+#renderFeaturedPlaylists{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    overflow-x: auto;
+}
+p{
+    font-weight: 100;
+}
