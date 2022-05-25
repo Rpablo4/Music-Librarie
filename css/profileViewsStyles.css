@@ -1,0 +1,34 @@
+.coverProfiles{
+    max-height: 2.5rem;
+    max-width: 2.5rem;
+}
+#coverProfile{
+    height:100%;
+    width:100%;
+    border-radius: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+#renderProfileViews{
+    display: block;
+    overflow-y:auto;
+    gap: 0.3em;
+    padding: 0.3rem;
+}
+.profileViewsCartao{
+    gap: 0.4rem;
+    margin-right: 4rem;
+}
+.profileData{
+    width: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    font-weight: 100;
+    font-size: smaller;
+}
+.profileViewContainer{
+    display: flex;
+    align-content: center;
+    padding-top: 10px;
+}

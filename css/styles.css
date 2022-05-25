@@ -9,6 +9,7 @@ body{
     grid-template-areas: "asid main";
     font-family: 'Montserrat';
     font-size: 10px;
+    max-height: 100vw;
 }
 aside{
     background-color: #040517;
@@ -49,13 +50,15 @@ main{
 grid-area: featPlay ;
 display: block;
 }
+.profileViewss{
+    grid-area: profileViews ;
+    display: block;
+}
 
 body main div h2{
     font-weight: 800;
 }
-.profileViews{
-    grid-area: profileViews;
-}
+
 .tracks{
     grid-area: tracks;
 }
