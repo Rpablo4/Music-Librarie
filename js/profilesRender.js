@@ -10,7 +10,7 @@ function constroiTbProfiles(array) {
           } >
             <div class="profileViewContainer">
                 <div class="coverProfiles">
-                    <img id="coverProfile" src="${profile.image}" alt="${profile.name}" />
+                    <img id="coverProfile" class="crop" src="${profile.image}" alt="${profile.name}" />
                 </div>
                 <div class="profileData">
                     <div>

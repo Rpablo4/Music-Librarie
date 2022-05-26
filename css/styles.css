@@ -61,7 +61,11 @@ body main div h2{
 
 .tracks{
     grid-area: tracks;
+    display: block;
 }
 .header{
     grid-area: search;
+}
+.crop{
+    object-fit: cover;
 }

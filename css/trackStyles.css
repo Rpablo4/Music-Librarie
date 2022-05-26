@@ -1,0 +1,32 @@
+
+#coverTrack{
+    height:5.5rem;
+    width:5.5rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+#renderTracks{
+    width: 40vw;
+    display: flex;
+    overflow-x:auto;
+    gap: 0.8em;
+    padding: 0.3rem;
+}
+.tracksCartao{
+    gap: 0.4rem;
+}
+.trackData{
+    text-align: center;
+    text-justify: center;
+}
+.trackAlbum{
+    font-weight: 100;
+    font-size:smaller;
+}
+.tracksContainer{
+    width: 5.6rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
