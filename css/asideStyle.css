@@ -1,0 +1,28 @@
+#menuNavegacao{
+   height: 10rem;
+   padding-top: 9rem;
+   margin-left: 15px;
+}
+#logo-header{
+    padding-top: 20px;
+    padding-left: 15px;
+    justify-content: center;
+}
+#imgProfile{
+    width: 3rem;
+    height: 3rem;
+}
+
+.configMenu{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+    gap: 0.5rem;
+    padding: 20px;
+}
+.configMenu a{
+    font-size:x-small;
+    text-decoration: none;
+    color: gray;
+}

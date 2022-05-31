@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/featuredPlaylistStyles.css">
 		<link rel="stylesheet" href="css/profileViewsStyles.css">
 		<link rel="stylesheet" href="css/trackStyles.css">
+		<link rel="stylesheet" href="css/asideStyle.css">
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
 		<title>Sound Wave</title>
@@ -22,9 +23,11 @@
 
 			<div class="configMenu">
 
-				<img src="assets/profile.jpg " width="50px">
-				<a href="#">Editar perfil</a>
-				<img src="">
+				<img id="imgProfile" class="crop" src="assets/profile.jpg " alt="ImgPerfilUsuario" >
+				<div id="txtProfileAside">
+					<p>Dany Schaedler</p>
+					<a href="#">Editar perfil</a>
+				</div>
 			</div>
 			
 			<div id="menuNavegacao">
@@ -54,7 +57,7 @@
 			<header>
 
 				<div id="busca-header">
-				  <input type="text" id="txtBusca" placeholder="Buscar..."/>
+				  <input type="text" id="txtBusca" placeholder="Buscar artista, playlist ou música..."/>
 				</div>
 
 			</header>

@@ -9,7 +9,7 @@ body{
     grid-template-areas: "asid main";
     font-family: 'Montserrat';
     font-size: 10px;
-    max-height: 100vw;
+    max-height: 100vh;
 }
 aside{
     background-color: #040517;
@@ -22,9 +22,7 @@ main{
     background-image:  linear-gradient(to right, #060826, #1d0a32);
 }
 .navMenu a{
-    display: grid;
     text-decoration: none;
-    display: flex;
     justify-content: left;
     padding-left: 30px;
     color: #C0C0C0;
@@ -44,7 +42,6 @@ main{
     grid-template-areas: "Search Search"
                         "featPlay featPlay" 
                         "profileViews tracks";
-    max-height: 100vw;
 }
 .featuredPlaylists{
 grid-area: featPlay ;
@@ -68,4 +65,16 @@ body main div h2{
 }
 .crop{
     object-fit: cover;
+}
+
+#txtbusca{
+    background-color: transparent;
+    border: none;
+  
+}
+
+.busca-header{
+    background-color: transparent;
+    border: none;
+    padding: 2cm;
 }
