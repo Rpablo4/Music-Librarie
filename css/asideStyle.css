@@ -22,7 +22,48 @@
     padding: 20px;
 }
 .configMenu a{
-    font-size:x-small;
+    font-weight: 100;
     text-decoration: none;
-    color: gray;
+    font-size:x-small;
+    color: #808080;
+}
+.navMenu a{
+    text-decoration: none;
+    justify-content: left;
+    color: #808080;
+    font-family: 'Montserrat';
+    font-size: 11px;
+    font-weight:100;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.navMenu{
+    margin-bottom: 35px;
+}
+.navMenu ul li{
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+.engineDireita{
+    display: flex;
+    align-items: center;
+}
+.engineDireita svg{
+    fill: #808080;
+    height: 1em;
+    padding-left: 3px;
+}
+.navMenu ul li{
+    display: flex;
+    align-items: center;
+}
+.navMenu ul li svg{
+    height: 1em;
+    stroke: #808080;
+}
+.navMenu ul li:hover svg{
+    stroke: #b8b8b8;
+}
+.navMenu li:hover a{
+    color: #b8b8b8;
 }

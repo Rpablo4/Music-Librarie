@@ -13,7 +13,7 @@ function constroiTbTracks(array) {
                         <img id="coverTrack" class="crop" src="${track.image}" alt="${track.title}" />
                     </div>
                     <div class="trackData">  
-                        <h3>${track.title}</h3>
+                        <h4>${track.title}</h4>
                         <p class="trackAlbum" >${track.album}</p>
                     </div>
                 </div>

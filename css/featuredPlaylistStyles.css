@@ -7,10 +7,16 @@
 
 #renderFeaturedPlaylists{
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     gap: 0.8rem;
-    padding: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
+#renderFeaturedPlaylists a, p, h3, h2, h1{
+    color: #e5e5e5e7;
+    font-family:'Montserrat';
+}
+
 .playlistCartao{
     gap: 0.8rem;
 }

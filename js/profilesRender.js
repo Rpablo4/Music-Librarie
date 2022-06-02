@@ -14,10 +14,10 @@ function constroiTbProfiles(array) {
                 </div>
                 <div class="profileData">
                     <div>
-                        <h3>${profile.name}</h3>
-                        <p class="profileLastView" >${profile.lastView}</p>
+                        <h4>${profile.name}</h4>
+                        <p class="smallText" >${profile.lastView}</p>
                      </div>
-                    <p> ${profile.albums}</p>
+                    <p class="smallText"> ${profile.albums}</p>
               </div>
             </div>
         `;

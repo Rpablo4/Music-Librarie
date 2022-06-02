@@ -5,12 +5,15 @@
     border-radius: 0.2rem;
     margin-bottom: 0.5rem;
 }
-
+#renderTracks a, p, h3, h2, h1{
+    color: #e5e5e5e7;
+    font-family:'Montserrat';
+}
 #renderTracks{
     width: 40vw;
     display: flex;
-    overflow-x:auto;
     gap: 0.8em;
+    overflow-x:auto;
     padding: 0.3rem;
 }
 .tracksCartao{
@@ -22,7 +25,8 @@
 }
 .trackAlbum{
     font-weight: 100;
-    font-size:smaller;
+    font-size: 11px;
+    color: #808080;
 }
 .tracksContainer{
     width: 5.6rem;
@@ -30,3 +34,4 @@
     justify-content: center;
     align-items: center;
 }
+ 

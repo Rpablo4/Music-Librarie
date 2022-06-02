@@ -5,10 +5,9 @@
     border-radius: 0.2rem;
     margin-bottom: 0.5rem;
 }
-
+ 
 #renderProfileViews{
     display: block;
-    overflow-y:auto;
     gap: 0.3em;
     padding: 0.3rem;
 }
@@ -21,14 +20,38 @@
     display: flex;
     justify-content: space-between;
     padding-left: 15px;
-    font-weight: 100;
-    font-size: smaller;
 }
 .profileViewContainer{
     display: flex;
     align-content: center;
     padding-top: 10px;
 }
-.profileViewss{
-    height: fit-content;
+#renderProfileViews a, p, h3, h2, h1{
+    color: #e5e5e5e7;
+    font-family:'Montserrat';
 }
+#busca-header{
+    display: flex;
+    background-color:transparent;
+    width:300px;
+    padding-top: 15px;
+    align-items: center;
+  }
+#busca-header svg{
+    float: left;
+ 	font-size: inherit;
+ 	height: 1em;
+ 	overflow: visible;
+ 	fill: #8d8d8d ;
+}
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:10px;
+    font-size:11px;
+    border:none;
+    height:10px;
+    width:260px;
+    font-family: 'Montserrat';
+    color:#8d8d8d ;
+  }

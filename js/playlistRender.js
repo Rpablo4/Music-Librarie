@@ -13,8 +13,8 @@ function constroiTabela(array) {
                     <img id="coverPlaylists" src="${user.image}" alt="${user.title}" />
                 </div>
               <div>
-                <h3>${user.title}</h3>
-                <p class="playlistTracks" >${user.tracks}</p>
+                <h2>${user.title}</h2>
+                <p class="smallText" >${user.tracks}</p>
               </div>
             </div>
         `;

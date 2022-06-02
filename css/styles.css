@@ -1,5 +1,6 @@
-h1, h2, h3, p, a{
-    color: #e5e5e5e7;
+h1, h2, h3, h4, p, a{
+    color: #d8d8d8e7;
+    font-family:'Montserrat';
 }
 
 body{
@@ -7,8 +8,6 @@ body{
     grid-template-columns: 150px 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "asid main";
-    font-family: 'Montserrat';
-    font-size: 10px;
     max-height: 100vh;
 }
 aside{
@@ -21,20 +20,9 @@ main{
     grid-area: main;
     background-image:  linear-gradient(to right, #060826, #1d0a32);
 }
-.navMenu a{
-    text-decoration: none;
-    justify-content: left;
-    padding-left: 30px;
-    color: #C0C0C0;
-    font-family: "Montserrat";
-    font-size: 11px;
-    font-weight:100;
-    margin-bottom: 5px;
-}
-.navMenu{
-    margin-bottom: 35px;
-}
+
 main{
+    padding-right: 15px;
     padding-left: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,6 +34,7 @@ main{
 .featuredPlaylists{
 grid-area: featPlay ;
 display: block;
+padding-bottom: 20px;
 }
 .profileViewss{
     grid-area: profileViews ;
@@ -73,8 +62,28 @@ body main div h2{
   
 }
 
-.busca-header{
-    background-color: transparent;
-    border: none;
-    padding: 2cm;
+.scroll::-webkit-scrollbar {
+    width: 2px;
+    height: 6px;
+    background-color: #200f32;
+    border-radius: 5px;
+}
+.scroll::-webkit-scrollbar-thumb {
+    background: #2b0d4b;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar {
+    width: 2px;
+    height: 6px;
+    background-color: #200f32;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #0f021d;
+    border-radius: 10px;
+}
+.smallText{
+    font-weight: 100;
+    font-size:x-small;
+    color: #808080;
 }
