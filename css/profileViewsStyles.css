@@ -7,7 +7,7 @@
 }
  
 #renderProfileViews{
-    display: block;
+    /* display: block; */
     gap: 0.3em;
     padding: 0.3rem;
 }
@@ -16,7 +16,7 @@
     margin-right: 4rem;
 }
 .profileData{
-    width: 50vh;
+    width: 25vw;
     display: flex;
     justify-content: space-between;
     padding-left: 15px;

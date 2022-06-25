@@ -8,15 +8,15 @@ body{
     grid-template-columns: 150px 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "asid main";
-    max-height: 100vh;
+    max-height:100vh;
 }
 aside{
     background-color: #040517;
     grid-area: asid;
-    height: 100vh;
+    /* height:100vh; */
 }
 main{
-    height: 100vh;
+    height:max-content;
     grid-area: main;
     background-image:  linear-gradient(to right, #060826, #1d0a32);
 }
@@ -26,7 +26,7 @@ main{
     padding-left: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 1.5fr 1fr;
+    grid-template-rows: 50px 1fr 1fr;
     grid-template-areas: "Search Search"
                         "featPlay featPlay" 
                         "profileViews tracks";
@@ -86,4 +86,37 @@ body::-webkit-scrollbar-thumb {
     font-weight: 100;
     font-size:x-small;
     color: #808080;
+}
+
+@media screen and (max-width: 800px){
+
+     main{
+        height: max-content;
+        padding-right: 15px;
+        padding-left: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 1fr 0.5fr 1fr;
+        grid-template-areas: "Search"
+                            "featPlay" 
+                            "profileViews"
+                            "tracks";
+    }
+    #renderProfileViews{
+        display: flex;
+        overflow-y: auto;
+        padding-bottom: 40px;
+        width: 70vw;
+        height: max-content;
+    }
+    #renderTracks{
+        width:70vw;
+    }
+    .profileData{
+        width: 25vw;
+    }
+    .featuredPlaylists{
+        width: 70vw;
+        padding-bottom: 40px;
+    }
 }

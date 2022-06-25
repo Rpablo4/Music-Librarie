@@ -9,8 +9,10 @@
     color: #e5e5e5e7;
     font-family:'Montserrat';
 }
-#renderTracks{
+.tracks{
     width: 40vw;
+}
+#renderTracks{
     display: flex;
     gap: 0.8em;
     overflow-x:auto;
